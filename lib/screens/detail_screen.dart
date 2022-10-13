@@ -17,8 +17,9 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('도서 정보'),
+          child: Text(title),
         ),
+        backgroundColor: Colors.indigo,
       ),
       body: Container(
         child: Column(

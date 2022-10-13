@@ -8,7 +8,8 @@ class ListScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
           child: Text('도서 목록'),
-        ) 
+        ),
+        backgroundColor: Colors.indigo,
       ),
       body: ListView(
         children: <Widget>[
